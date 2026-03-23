@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Devine">
+    <meta name="author" content="Devine Kuma Leo">
     <title>Landingspagina</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script src="javascript/slideshow.js" defer></script>
+    <script src="javascript/theme.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,12 +28,13 @@
                 <a href="reserveren.html">Reserveren</a>
                 <a href="vacatures.html">Vacatures</a>
         </nav>
+        <button id="theme-toggle" title="Switch theme">🌙</button>
         </section>
     </header>
 
     <main>
         <section class="slideshow">
-                    <img src="images/c54355d3-20a6-4d8a-a1fe-e0744ceb8ab0.png" class="slide active">
+             <img src="images/c54355d3-20a6-4d8a-a1fe-e0744ceb8ab0.png" class="slide active">
                     <img src="images/e41a55c1-2ce0-4fb9-ad54-a5aabb5b4602.png" class="slide">
                     <img src="images/fdd31307-4566-4042-a567-df64a3d619e3.png" class="slide">
                     </section>
@@ -40,16 +42,24 @@
                     <section class="online-order">
 
                         <article class="order">
+                            <a href="https://www.ubereats.com/nl">
                             <img src="images/uber.png" alt="ubereats">
+                            </a>
                         </article>
                         <article class="order">
+                            <a href="https://food.bolt.eu/en/">
                             <img src="images/bolt.png" alt="bolt">
+                            </a>
                         </article>
                         <article class="order">
+                            <a href="https://www.thuisbezorgd.nl">
                             <img src="images/thuis.png" alt="thuisbezorg">
+                            </a>
                         </article>
                         <article class="order">
+                            <a href="">
                             <img src="images/pickup.png" alt="pickup">
+                            </a>
                         </article>
 
                     </section>

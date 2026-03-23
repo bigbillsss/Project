@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Devine">
-    <title>Openingstijden</title>
+    <meta name="author" content="Devine Kuma Leo">
+    <title>Reserveren</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src="javascript/map.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<script src="javascript/theme.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,40 +18,44 @@
         <img src="images/Scherm_afbeelding_2026-03-06_om_11.42.47-removebg-preview.png" alt="logo1" class="logo1">        <nav>
                 <a href="landingspagina.html">Home</a>
                 <a href="menukaart.html">Menu</a>
-                <a href="openingstijden.html" class="active">Openingstijden</a>
-                <a href="reserveren.html">Reserveren</a>
+                <a href="openingstijden.html">Openingstijden</a>
+                <a href="reserveren.html" class="active">Reserveren</a>
                 <a href="vacatures.html">Vacatures</a>
         </nav>
+        <button id="theme-toggle" title="Switch theme">🌙</button>
         </section>
     </header>
 
-    <main>
-       
-        <h1>Openingstijden</h1>
-        <p>Onze openingstijden zijn:</p>
-        <ul>
-            <li>Maandag: Gesloten</li>
-            <li>Dinsdag: 17:00 - 22:00</li>
-            <li>Woensdag: 17:00 - 22:00</li>
-            <li>Donderdag: 17:00 - 22:00</li>
-            <li>Vrijdag: 17:00 - 22:00</li>
-            <li>Zaterdag: 17:00 - 22:00</li>
-            <li>Zondag: 12:00 - 22:00</li>
-        </ul>
+    <main class="reserveer-BG">
+        <h1>Reserveren</h1>
+        <p>Maak een reservering bij Umami Sushi.</p>
+        <form>
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" class="textbox"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="textbox"><br>
+            <label for="date">Datum:</label>
+            <input type="date" id="date" name="date" class="textbox"><br>
+            <label for="time">Tijd:</label>
+            <input type="time" id="time" name="time" class="textbox"><br>
+            <label for="guests">Aantal personen:</label>
+            <input type="number" id="guests" name="guests" class="textbox"><br>
+            <input type="submit" value="Reserveren" class="submit-btn">
+        </form>
     </main>
 
-    <footer>
+    <footer class="shadow">
         <section class="follow-us">
-            <h1>Follow Us</h1>
+            <h1 class="follow">Follow Us</h1>
             <a href="https://www.facebook.com/umamisushi.leiden"><img src="images/facebook.png" alt="Facebook"></a>
             <a href="https://www.instagram.com/umamisushi_leiden/"><img src="images/instagram.png" alt="Instagram"></a>
             <a href="https://www.tiktok.com/@umamisushi_leiden"><img src="images/tiktok.png" alt="tiktok"></a>
             <a href="https://www.linkedin.com/company/umamisushi-leiden"><img src="images/linkedin.png" alt="linkedin"></a>
         </section>
         <section class="contact-us">
-            <h1>Contact Us</h1>
-            <a href="https://www.google.com/maps/place/Galgewater+12,+2311VZ+Leiden/@52.166789,4.483333,17z/data=!3m1!4b1!4m1!3m0!4m5!3m4!8m2!3d52.166789!4d4.483333?hl=nl">Adres: Galgewater 12, 2311VZ Leiden</a>
-            <a href="mailto:info@umamileiden.nl">Email: info@umamileiden.nl</a>
+            <h1 class="follow">Contact Us</h1>
+            <a  href="https://www.google.com/maps/place/Galgewater+12,+2311VZ+Leiden/@52.166789,4.483333,17z/data=!3m1!4b1!4m1!3m0!4m5!3m4!8m2!3d52.166789!4d4.483333?hl=nl">Adres: Galgewater 12, 2311VZ Leiden</a>
+            <a  href="mailto:info@umamileiden.nl">Email: info@umamileiden.nl</a>
             <a href="tel:0612345678">Telefoon: 06 12345678</a>
         </section>
     </footer>
