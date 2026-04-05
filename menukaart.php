@@ -121,9 +121,9 @@ include 'header.php';
         <section class="bijgerechten-title">
             <h3>BIJGERECHTEN</h3>
             <ul class="dranken">
-                <li><span>Witte Rijst</span> <span class= "price">€2,50</span></li>
-                <li><span>Gember</span> <span class= "price">€1,50</span></li>
-                <li><span>Extra Wasabi</span> <span class= >€1,00</span></li>
+                <li><span>Witte Rijst</span> <span>€2,50</span></li>
+                <li><span>Gember</span> <span>€1,50</span></li>
+                <li><span>Extra Wasabi</span> <span>€1,00</span></li>
                 <li><span>Spicy Mayonaise</span> <span>€1,00</span></li>
             </ul>
         </section>

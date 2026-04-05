@@ -14,27 +14,27 @@ include 'header.php';
         <section class="vacatures">
 
             <article class="vacature1">
-                <img src="images/chefkok1.png" alt="chefkok">
+                <img src="images/chefkok1.png" alt="Chef preparing sushi">
                 <h3 class="vacature-info">Assistant Manager</h3>
                 <p class="vacature-info">Full-time</p>
             </article>
             <article class="vacature1">
-                <img src="images/manager.png" alt="chefkok">
+                <img src="images/manager.png" alt="Restaurant manager">
                 <h3 class="vacature-info">Assistant Manager</h3>
                 <p class="vacature-info">Full-time</p>
             </article>
             <article class="vacature1">
-                <img src="images/bediening.png" alt="chefkok">
+                <img src="images/bediening.png" alt="Waitstaff serving customers">
                 <h3 class="vacature-info">Assistant Manager</h3>
                 <p class="vacature-info">Full-time</p>
             </article>
             <article class="vacature1">
-                <img src="images/chefkok.png" alt="chefkok">
+                <img src="images/chefkok.png" alt="Sushi chef at work">
                 <h3 class="vacature-info">Assistant Manager</h3>
                 <p class="vacature-info">Full-time</p>
             </article>
             <article class="vacature1">
-                <img src="images/barmedewerker.png" alt="chefkok">
+                <img src="images/barmedewerker.png" alt="Bartender mixing drinks">
                 <h3 class="vacature-info">Assistant Manager</h3>
                 <p class="vacature-info">Full-time</p>
             </article>

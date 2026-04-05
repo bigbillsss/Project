@@ -12,31 +12,3 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     setInterval(goToNextSlide, 3000);
 });
-
-//   .topbar {
-//         display: flex;
-//         justify-content: space-around;
-//         align-items: center;
-//         width: 100%;
-
-//     }
-
-//     .topbar nav {
-//         display: flex;
-//         gap: 20px;
-//     }
-
-//     .topbar a {
-//         color: #fff;
-//         text-decoration: none;
-//         font-size: 1.1rem;
-//         flex: 1;
-//         text-align: center;
-        
-        
-//     }
-
-//     .topbar a:hover {
-//         color: #F77839; 
-//         font-weight: bolder;
-//     }

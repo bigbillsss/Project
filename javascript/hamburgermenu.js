@@ -1,9 +1,13 @@
 function toggleMenu() {
-    let hamburgerMenu = document.getElementById("myLinks")
-    if (hamburgerMenu.style.display === "block") {
-        hamburgerMenu.style.display = "none"
-    } else {
-        hamburgerMenu.style.display = "block"
-    }
+    const hamburgerMenu = document.getElementById("myLinks");
+    if (!hamburgerMenu) return;
+    hamburgerMenu.classList.toggle("open");
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.getElementById("menu-toggle");
+    if (menuToggle) {
+        menuToggle.addEventListener("click", toggleMenu);
+    }
+});
 
