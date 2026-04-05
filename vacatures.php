@@ -1,32 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Devine Kuma Leo">
-    <title>Vacatures</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-<script src="javascript/theme.js" defer></script>
-</head>
-<body>
-    <header>
-        <section class="topbar"> 
-        <img src="images/logo_umami_sushi_1 (1).png" alt="Logo" class="logo">
-        <img src="images/Scherm_afbeelding_2026-03-06_om_11.42.47-removebg-preview.png" alt="logo1" class="logo1">        <nav>
-                <a href="landingspagina.html">Home</a>
-                <a href="menukaart.html">Menu</a>
-                <a href="openingstijden.html">Openingstijden</a>
-                <a href="reserveren.html">Reserveren</a>
-                <a href="vacatures.html" class="active">Vacatures</a>
-        </nav>
-        <button id="theme-toggle" title="Switch theme">🌙</button>
-        </section>
-    </header>
-
-    <main class="vacature-box">
+<?php
+$page = 'vacatures';
+$title = 'Vacatures';
+include 'header.php';
+?>
+    <section class="vacature-box">
         <section class="menu-body">
         <section class="section-padding">
             <h2 class="section-title">VACATURES</h2>
@@ -64,23 +41,7 @@
             
 
         </section>
+    </section>
     </main>
 
-    <footer>
-        <section class="follow-us">
-            <h1>Follow Us</h1>
-            <a href="https://www.facebook.com/umamisushi.leiden"><img src="images/facebook.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/umamisushi_leiden/"><img src="images/instagram.png" alt="Instagram"></a>
-            <a href="https://www.tiktok.com/@umamisushi_leiden"><img src="images/tiktok.png" alt="tiktok"></a>
-            <a href="https://www.linkedin.com/company/umamisushi-leiden"><img src="images/linkedin.png" alt="linkedin"></a>
-        </section>
-        <section class="contact-us">
-            <h1>Contact Us</h1>
-            <a href="https://www.google.com/maps/place/Galgewater+12,+2311VZ+Leiden/@52.166789,4.483333,17z/data=!3m1!4b1!4m1!3m0!4m5!3m4!8m2!3d52.166789!4d4.483333?hl=nl">Adres: Galgewater 12, 2311VZ Leiden</a>
-            <a href="mailto:info@umamileiden.nl">Email: info@umamileiden.nl</a>
-            <a href="tel:0612345678">Telefoon: 06 12345678</a>
-        </section>
-    </footer>
-    
-</body>
-</html>
+<?php include 'footer.php'; ?>

@@ -1,33 +1,35 @@
+<?php
+if (!isset($page)) {
+    $page = '';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umami Sushi Leiden</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Devine Kuma Leo">
+    <title><?php echo isset($title) ? $title : 'Umami Sushi'; ?></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="javascript/theme.js" defer></script>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="menu.php">Menu</a></li>
-                <li><a href="contact.php">Contact</a></li>
-            </ul>
-        </nav>
+        <section class="topbar">
+            <img src="images/logo_umami_sushi_1 (1).png" alt="Logo" class="logo">
+            <img src="images/Scherm_afbeelding_2026-03-06_om_11.42.47-removebg-preview.png" alt="logo1" class="logo1">
+            <nav class="header-list">
+                <a href="landingspagina.php"<?php echo $page === 'home' ? ' class="active"' : ''; ?>>Home</a>
+                <a href="menukaart.php"<?php echo $page === 'menu' ? ' class="active"' : ''; ?>>Menu</a>
+                <a href="openingstijden.php"<?php echo $page === 'openingstijden' ? ' class="active"' : ''; ?>>Openingstijden</a>
+                <a href="reserveren.php"<?php echo $page === 'reserveren' ? ' class="active"' : ''; ?>>Reserveren</a>
+                <a href="vacatures.php"<?php echo $page === 'vacatures' ? ' class="active"' : ''; ?>>Vacatures</a>
+            </nav>
+            <button id="theme-toggle" title="Switch theme">🌙</button>
+        </section>
     </header>
-
-    <footer>
-        <section class="follow-us">
-            <h1 class="contact">Follow Us</h1>
-            <a href="https://www.facebook.com/umamisushi.leiden"><img src="images/facebook.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/umamisushi_leiden/"><img src="images/instagram.png" alt="Instagram"></a>
-        </section>
-        <section class="contact-us">
-            <h1 class="contact">Contact Us</h1>
-            <p>Adres: Galgewater 12, 2311VZ Leiden</p>
-            <a href="mailto:info@umamileiden.nl">Email: info@umamileiden.nl</a>
-        </section>
-    </footer>
-</body>
-</html
+    <main>

@@ -1,57 +1,4 @@
-:root[data-theme="dark"] {
-    --bg-primary: #171325;
-    --bg-secondary: #0e0c17;
-    --bg-tertiary: #000000;
-    --text-primary: #ffffff;
-    --text-secondary: #ddd;
-    --text-tertiary: #eee;
-    --text-muted: #aaa;
-    --accent-primary: #F7733D;
-    --accent-secondary: #ffffff;
-    --border-color: #ffffff;
-    --veg-color: #76b041;
-    --input-bg: #000;
-    --input-text: #fff;
-    --button-bg: #ffffff;
-    --button-text: #000000;
-    --button-hover: #F77839;
-}
 
-:root[data-theme="light"] {
-    --bg-primary: #ededed;
-    --bg-secondary: #ffffff;
-    --bg-tertiary: #f0f0f0;
-    --text-primary: #1a1a1a;
-    --text-secondary: #333333;
-    --text-tertiary: #222222;
-    --text-muted: #666666;
-    --accent-primary: #F7733D;
-    --accent-secondary: #ffffff;
-    --border-color: #cccccc;
-    --veg-color: #76b041;
-    --input-bg: #ffffff;
-    --input-text: #1a1a1a;
-    --button-bg: #1a1a1a;
-    --button-text: #ffffff;
-    --button-hover: #F77839;
-    
-    
-}
-
-
-
-#theme-toggle {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 5px 10px;
-    transition: transform 0.3s ease;
-}
-
-#theme-toggle:hover {
-    transform: rotate(20deg);
-}
 
 /* Mobile - billie */
 @media (max-width: 600px) {
@@ -585,7 +532,7 @@ main p {
 .reserveer-BG {
     background-size: cover;
     background-position: center;
-    background-color: #eee;
+    background-color: #F0921F;
     padding: 40px 20px;
 }
 
